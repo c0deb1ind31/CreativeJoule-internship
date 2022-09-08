@@ -1,0 +1,7 @@
+.hero-section {
+  width: 100%;
+}
+.hero-img {
+  transform: translate(150px, 50px);
+  width: 80%;
+}
