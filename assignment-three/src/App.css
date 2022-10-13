@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 30px;
+  height: 200px;
+  width: fit-content;
+  border-radius: 20px;
+  background: rgb(217, 241, 247);
+
+  background: linear-gradient(
+    124deg,
+    rgba(217, 241, 247, 1) 0%,
+    rgba(241, 205, 241, 1) 41%,
+    rgba(196, 192, 244, 1) 65%,
+    rgba(174, 216, 250, 1) 100%
+  );
+  box-shadow: 10px 10px 2px rgba(174, 216, 250, 0.4),
+    20px 20px 2px rgba(174, 216, 250, 0.4),
+    20px 20px 2px rgba(174, 216, 250, 0.4);
+  color: #4d3a7b;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
