@@ -1,0 +1,71 @@
+.movie_card {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: fit-content;
+  background-color: #171717;
+  padding: 25px;
+  border-radius: 10px;
+}
+.movie_card img {
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.movie_card .movie_info {
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+}
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+.movie_info h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 14px;
+}
+.movie_card .movie_info h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.movie_card p {
+  color: #949494;
+}
+.movie_card button {
+  margin: 5px 0 0 5px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: white;
+  float: right;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #cf206c, #ea4c89);
+}
+.movie_card:hover {
+  box-shadow: 0 0 8px #ea4c89;
+}
+.card_rating {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 40px;
+  width: 30px;
+  background-color: #f0a500;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+.card_rating p {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}

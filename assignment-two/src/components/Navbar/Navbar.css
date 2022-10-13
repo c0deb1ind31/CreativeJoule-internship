@@ -1,0 +1,38 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #171717;
+  padding: 25px;
+  color: rgb(244, 12, 12);
+  z-index: 10;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #f30404;
+}
+nav ul,
+nav li,
+nav h3 {
+  display: inline-block;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav button {
+  padding: 10px 20px;
+  border: none;
+  background-image: linear-gradient(to right, #ed0b0b, #ed0707);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 1px solid white;
+}

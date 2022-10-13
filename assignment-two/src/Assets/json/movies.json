@@ -1,0 +1,26 @@
+[
+    {
+        "moviename": "Shershaah",
+        "director": "Vishnuvardhan",
+        "releasedate": "12 August 2021",
+        "genre": "action",
+        "rating": 9.0,
+        "image": "/images/shershaah.jpg"
+    },
+    {
+        "moviename": "Badlapur",
+        "director": " Sriram Raghavan",
+        "releasedate": "20 February 2015",
+        "genre": "action",
+        "rating": 8.0,
+        "image": "/images/badlapur.jpg"
+    },
+    {
+        "moviename": "Pushpa: The Rise",
+        "director": "Sukumar",
+        "releasedate": "17 December 2021",
+        "genre": "action",
+        "rating": 9.0,
+        "image": "/images/pushpa.jpg"
+    }
+]
