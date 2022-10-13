@@ -1,0 +1,19 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); */
+}
+.logo {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.wallet-btn {
+  padding: 10px 20px;
+  background-color: #453a9b;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+}

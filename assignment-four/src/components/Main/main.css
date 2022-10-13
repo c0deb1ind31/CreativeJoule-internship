@@ -1,0 +1,46 @@
+.main-container {
+  padding: 20px;
+  z-index: 999;
+}
+.form-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.form-item label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+.form-item input {
+  background-color: white !important;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(grey, 0.1) !important;
+  padding: 10px;
+  outline: none;
+  border: 1px solid grey !important;
+}
+.add-btn {
+  padding: 10px 20px;
+  background-color: #453a9b;
+  border-radius: 10px;
+  color: white;
+  align-self: flex-end;
+  font-size: 1.2em;
+}
+
+.explore {
+  margin-top: 30px;
+}
+#expl {
+  margin: 10px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}

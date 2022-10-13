@@ -1,0 +1,22 @@
+.hero-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-container h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+.hero-container p {
+  display: inline;
+  font-size: 5rem;
+}
+#buy {
+  color: #f5ab4e;
+}
+#sell {
+  color: #928aff;
+}

@@ -1,0 +1,35 @@
+.card-container {
+  height: 530px;
+  width: 500px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(146, 138, 255, 0.6);
+  overflow: hidden;
+}
+
+.figma-embed {
+  height:55%;
+}
+.card-body {
+  height: 45%;
+  padding: 20px;
+}
+#head {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+#value {
+  font-size: 1em;
+  font-weight: 500;
+}
+.buy-btn {
+  margin-top: 10px;
+  color: white;
+  border-radius: 10px;
+  font-size: 1em;
+  width: 100%;
+  padding: 10px;
+  background-color: #453a9b;
+}

@@ -1,0 +1,31 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+.bg-1,
+.bg-2,
+.bg-3 {
+  z-index: -10;
+
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 200%;
+  filter: blur(100px);
+}
+.bg-1 {
+  top: 10px;
+  left: 20px;
+  background-color: #f5ab4e;
+}
+.bg-2 {
+  top: 100px;
+  right: 200px;
+  background-color: #f5ab4e;
+}
+.bg-3 {
+  top: 300px;
+  right: 500px;
+  background-color: #928aff;
+}
